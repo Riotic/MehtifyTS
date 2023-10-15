@@ -1,0 +1,52 @@
+.App-footer {
+  background-color: #6C6C6C;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+
+}
+
+.App-footer p {
+  width: 10%;
+}
+
+#musiqueFooter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#musiqueFooter p{
+  text-align: center;
+}
+
+#icon-play-pause{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.App-pause2{
+  height: 80%;
+}
+
+@media screen and (max-height:750px ){
+  .App-pause2{
+    height: 50%;
+  }
+}
+
+.ButtonPauseIcon2{
+  transition: all 0.2s ease-in-out;
+}
+
+.ButtonPauseIcon2:hover{
+  filter: brightness(50%);
+}

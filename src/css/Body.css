@@ -1,0 +1,19 @@
+
+.App-body {
+  background-color: #313030;
+  height: 73vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+section:first-child{
+  margin: 2.5% 0.25% 0 0.25%;
+}
+
+section{
+  margin: 1% 0.25% 0 0.25%;
+}

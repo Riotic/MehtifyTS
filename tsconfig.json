@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "typeRoots": ["./src/types"],
+        "noImplicitAny": false,
+        "target": "ES6",
+        "module": "CommonJS",
+        "lib": ["ES6", "DOM"],
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "strictNullChecks": true,
+        "baseUrl": "./",
+        "paths": { "@/*": ["src/*"] }
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "audio.d.ts"],
+    "exclude": ["node_modules"]
+  }
+  
